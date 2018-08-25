@@ -45,10 +45,10 @@
           @extend %ui-fake-link;
 
           &:hover {
-            color: $uxpl-blue-base;
+            color: $orange-kmitl;
 
             .ui-toggle-expansion {
-              color: $uxpl-blue-base;
+              color: $orange-kmitl;
             }
           }
         }
@@ -213,7 +213,7 @@
             margin: 0 0 ($baseline/4) 0;
 
             &.is-focused {
-              color: $uxpl-blue-base;
+              color: $orange-kmitl;
             }
           }
 

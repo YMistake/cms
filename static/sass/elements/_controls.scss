@@ -62,8 +62,8 @@
 // blue primary button
 %btn-primary-blue {
   @extend %ui-btn-primary;
-  background: $uxpl-blue-base;
-  border-color: $uxpl-blue-base;
+  background: $orange-kmitl;
+  border-color: $orange-kmitl;
   color: $white;
 
   &:hover, &:active {
@@ -132,7 +132,7 @@
 %btn-secondary-blue {
   @extend %ui-btn-secondary;
   border-color: $blue-l3;
-  color: $uxpl-blue-base;
+  color: $orange-kmitl;
 
   &:hover, &:active {
     background: $blue-l4;
@@ -142,7 +142,7 @@
   &.current, &.active {
     border-color: $blue-l3;
     background: $blue-l3;
-    color: $uxpl-blue-base;
+    color: $orange-kmitl;
   }
 }
 
@@ -297,7 +297,7 @@
       color: $gray-d1;
 
       &:hover {
-        background-color: $uxpl-blue-base;
+        background-color: $orange-kmitl;
         color: $gray-l6;
       }
 
@@ -371,7 +371,7 @@
   vertical-align: top;
 
   &:hover {
-    color: $uxpl-blue-base;
+    color: $orange-kmitl;
   }
 
   .ui-toggle-expansion {
@@ -409,7 +409,7 @@
     // STATE: hover/active
     &:hover, &:active {
       @extend %ui-fake-link;
-      color: $uxpl-blue-base;
+      color: $orange-kmitl;
     }
   }
 
