@@ -42,9 +42,9 @@ $transparent: rgba(0,0,0,0) !default; // used when color value is needed for UI 
 
 // +Colors - UXPL new pattern library colors
 // ====================
-$orange-kmitl: rgb(0, 117, 180) !default; // wcag2a compliant
+$uxpl-blue-base: rgb(0, 117, 180) !default; // wcag2a compliant
 $uxpl-blue-hover-active: rgb(6, 86, 131) !default; // wcag2a compliant
-$uxpl-light-blue-base: rgb(242, 248, 251) !default
+$uxpl-light-blue-base: rgb(242, 248, 251) !default;
 
 $uxpl-green-base: rgb(0, 129, 0) !default; // wcag2a compliant
 $uxpl-green-hover-active: rgb(0, 155, 0) !default; // wcag2a compliant
@@ -60,6 +60,8 @@ $uxpl-primary-accent: rgb(14, 166, 236) !default;
 // +Colors - Primary
 // ====================
 $orange-kmitl: #f47d3e;
+$orange-kmitl-hover: #ffffff;
+$orange-kmitl-link-hover: #f55600;
 
 $black: rgb(0,0,0) !default;
 $black-t0: rgba($black, 0.125) !default;
