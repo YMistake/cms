@@ -15,6 +15,7 @@
 // * +Deprecated
 
 $baseline: 20px;
+$newbaseline: 35px;
 
 // +Paths
 // ====================
@@ -58,6 +59,8 @@ $uxpl-primary-accent: rgb(14, 166, 236) !default;
 
 // +Colors - Primary
 // ====================
+$orange-kmitl: #f47d3e;
+
 $black: rgb(0,0,0) !default;
 $black-t0: rgba($black, 0.125) !default;
 $black-t1: rgba($black, 0.25) !default;

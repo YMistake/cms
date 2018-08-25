@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0 $baseline;
   background: $white;
+  border-bottom: 4px solid $orange-kmitl;
 
   header.primary {
     @include box-sizing(border-box);
@@ -123,13 +124,13 @@
 
   // specific elements - branding
   .branding {
-    padding: ($baseline*0.75) 0;
+    padding: 5px 0;
 
     a {
       display: block;
 
       img {
-        max-height: ($baseline*2);
+        max-height: ($newbaseline*2);
         display: block;
       }
     }
@@ -176,7 +177,7 @@
       color: $gray-d3;
 
       &:hover {
-        color: $uxpl-blue-hover-active;
+        color: $orange-kmitl;
       }
     }
   }
@@ -326,19 +327,21 @@
       }
 
       .action-signup {
-        @include blue-button();
-        @extend %t-action3;
-        @extend %t-strong;
-        padding: ($baseline/4) ($baseline/2);
-        text-transform: uppercase;
-      }
-
-      .action-signin {
         @include white-button();
         @extend %t-action3;
         @extend %t-strong;
-        padding: ($baseline/4) ($baseline/2);
-        text-transform: uppercase;
+        padding: 10px 20px;
+	box-shadow: none !important;
+        //text-transform: uppercase;
+      }
+
+      .action-signin {
+        @include blue-button();
+        @extend %t-action3;
+        @extend %t-strong;
+        padding: 10px 20px;
+	box-shadow: none !important;
+        //text-transform: uppercase;
       }
     }
   }
