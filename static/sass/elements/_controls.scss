@@ -67,17 +67,19 @@
   color: $white;
 
   &:hover, &:active {
-    background: $uxpl-blue-hover-active;
-    border-color: $uxpl-blue-hover-active;
+    background: $white;
+    border-color: $orange-kmitl;
+    color: $orange-kmitl;
   }
 
   &.current, &.active {
-    background: $uxpl-blue-hover-active;
-    border-color: $uxpl-blue-hover-active;
-    color: $blue-l4;
+    background: $orange-kmitl;
+    border-color: $orange-kmitl;
+    color: $white;
 
     &:hover, &:active {
-      background: $uxpl-blue-hover-active;
+      background: $orange-kmitl-link-hover;
+      border-color: $orange-kmitl-link-hover;
     }
   }
 }

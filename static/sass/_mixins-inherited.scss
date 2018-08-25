@@ -145,7 +145,7 @@
 
 @mixin green-button {
   @include button;
-  @include linear-gradient(top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+  //@include linear-gradient(top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
   box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
   border: 1px solid $uxpl-green-base;
   border-radius: 3px;
@@ -181,8 +181,8 @@
 
   &.disabled, &.is-disabled {
     box-shadow: none;
-    border: 1px solid $blue-l3 !important;
-    background: $blue-l3 !important;
+    border: 1px solid $orange-kmitl !important;
+    background: $orange-kmitl !important;
     color: $white !important;
   }
 }
